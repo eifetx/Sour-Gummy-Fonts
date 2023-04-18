@@ -1,5 +1,6 @@
-# ***Sour-Gummy-Fonts***
-![Preview](https://user-images.githubusercontent.com/123919967/232844727-61918f71-85c2-48ff-b7bf-f8bbb7309622.jpg)
+# ***Sour Gummy Fonts***
+![Preview](https://user-images.githubusercontent.com/123919967/232868302-34ad8f83-15fd-4242-ae98-88e2cd2e9f06.jpg)
+
 
 ***Sour Gummy*** Font is a fun and playful typeface that was first created in 2018 and has recently been updated to offer even more versatility and style. This font is perfect for adding a touch of whimsy and character to your designs.
 
