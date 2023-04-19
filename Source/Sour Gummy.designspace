@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="100" maximum="900" default="100" tag="wght" name="weight">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="100" output="100"/>
+   <map input="400" output="400"/>
+   <map input="900" output="900"/>
+  </axis>
+  <axis minimum="100" maximum="125" default="100" tag="wdth" name="width">
+   <labelname xml:lang="en">Width</labelname>
+  </axis>
+  <axis minimum="0" maximum="7" default="0" tag="slnt" name="slant">
+   <labelname xml:lang="en">Slant</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="Sour Gummy" filename="masters/SourGummy-Black.ufo" stylename="Black" name="Black">
+   <location>
+    <dimension xvalue="900" name="weight"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="0" name="slant"/>
+   </location>
+  </source>
+  <source familyname="Sour Gummy" filename="masters/SourGummy-BlackExpanded.ufo" stylename="Black Expanded" name="Black Expanded">
+   <location>
+    <dimension xvalue="900" name="weight"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="0" name="slant"/>
+   </location>
+  </source>
+  <source familyname="Sour Gummy" filename="masters/SourGummy-BlackExpandedObelique.ufo" stylename="Black Expanded" name="Black Expanded Obelique">
+   <location>
+    <dimension xvalue="900" name="weight"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="7" name="slant"/>
+   </location>
+  </source>
+  <source familyname="Sour Gummy" filename="masters/SourGummy-BlackObelique.ufo" stylename="Black" name="Black Obelique">
+   <location>
+    <dimension xvalue="900" name="weight"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="7" name="slant"/>
+   </location>
+  </source>
+  <source familyname="Sour Gummy" filename="masters/SourGummy-Thin.ufo" stylename="Thin" name="Thin">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="100" name="weight"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="0" name="slant"/>
+   </location>
+  </source>
+  <source familyname="Sour Gummy" filename="masters/SourGummy-ThinExpanded.ufo" stylename="Thin Expanded" name="Thin Expanded">
+   <location>
+    <dimension xvalue="100" name="weight"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="0" name="slant"/>
+   </location>
+  </source>
+  <source familyname="Sour Gummy" filename="masters/SourGummy-ThinExpandedObelique.ufo" stylename="Thin Expanded" name="Thin Expanded Obelique">
+   <location>
+    <dimension xvalue="100" name="weight"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="7" name="slant"/>
+   </location>
+  </source>
+  <source familyname="Sour Gummy" filename="masters/SourGummy-ThinObelique.ufo" stylename="Thin" name="Thin Obelique">
+   <location>
+    <dimension xvalue="100" name="weight"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="7" name="slant"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-Thin.ufo" stylename="Thin" name="Thin">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="100" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ThinSlanted.ufo" stylename="Thin Slanted" name="ThinSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="100" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ThinExpanded.ufo" stylename="Thin Expanded" name="ThinExpanded">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="100" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ThinExpandedSlanted.ufo" stylename="Thin Expanded Slanted" name="ThinExpandedSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="100" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ExtraLight.ufo" stylename="Extra Light" name="ExtraLight">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="200" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ExtraLightSlanted.ufo" stylename="Extra Light Slanted" name="ExtraLightSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="200" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ExtraLightExpanded.ufo" stylename="Extra Light Expanded" name="ExtraLightExpanded">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="200" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ExtraLightExpandedSlanted.ufo" stylename="Extra Light Expanded Slanted" name="ExtraLightExpandedSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="200" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-Light.ufo" stylename="Light" name="Light">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-LightSlanted.ufo" stylename="Light Slanted" name="LightSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-LightExpanded.ufo" stylename="Light Expanded" name="LightExpanded">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-LightExpandedSlanted.ufo" stylename="Light Expanded Slanted" name="LightExpandedSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-Regular.ufo" stylename="Regular" name="Regular">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-Slanted.ufo" stylename="Slanted" name="Slanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-Expanded.ufo" stylename="Expanded" name="Expanded">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ExpandedSlanted.ufo" stylename="Expanded Slanted" name="ExpandedSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-Medium.ufo" stylename="Medium" name="Medium">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="500" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-MediumSlanted.ufo" stylename="Medium Slanted" name="MediumSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="500" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-MediumExpanded.ufo" stylename="Medium Expanded" name="MediumExpanded">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="500" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-MediumExpandedSlanted.ufo" stylename="Medium Expanded Slanted" name="MediumExpandedSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="500" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-SemiBold.ufo" stylename="Semi Bold" name="SemiBold">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="600" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-SemiBoldSlanted.ufo" stylename="Semi Bold Slanted" name="SemiBoldSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="600" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-SemiBoldExpanded.ufo" stylename="Semi Bold Expanded" name="SemiBoldExpanded">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="600" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-SemiBoldExpandedSlanted.ufo" stylename="Semi Bold Expanded Slanted" name="SemiBoldExpandedSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="600" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-Bold.ufo" stylename="Bold" name="Bold">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-BoldSlanted.ufo" stylename="Bold Slanted" name="BoldSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-BoldExpanded.ufo" stylename="Bold Expanded" name="BoldExpanded">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-BoldExpandedSlanted.ufo" stylename="Bold Expanded Slanted" name="BoldExpandedSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ExtraBold.ufo" stylename="Extra Bold" name="ExtraBold">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="800" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ExtraBoldSlanted.ufo" stylename="Extra Bold Slanted" name="ExtraBoldSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="800" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ExtraBoldExpanded.ufo" stylename="Extra Bold Expanded" name="ExtraBoldExpanded">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="800" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-ExtraBoldExpandedSlanted.ufo" stylename="Extra Bold Expanded Slanted" name="ExtraBoldExpandedSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="800" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-Black.ufo" stylename="Black" name="Black">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="900" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-BlackSlanted.ufo" stylename="Black Slanted" name="BlackSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="100" name="width"/>
+    <dimension xvalue="900" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-BlackExpanded.ufo" stylename="Black Expanded" name="BlackExpanded">
+   <location>
+    <dimension xvalue="0" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="900" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="Sour Gummy" filename="instances/SourGummy-BlackExpandedSlanted.ufo" stylename="Black Expanded Slanted" name="BlackExpandedSlanted">
+   <location>
+    <dimension xvalue="7" name="slant"/>
+    <dimension xvalue="125" name="width"/>
+    <dimension xvalue="900" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>
