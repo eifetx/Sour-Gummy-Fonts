@@ -910,7 +910,7 @@ pos = 500;
 {
 }
 );
-name = "Thin Expanded";
+name = "Expanded Thin";
 },
 {
 axesValues = (
@@ -1058,13 +1058,13 @@ over = 3;
 pos = 499;
 }
 );
-name = "Black Expanded";
+name = "Expanded Black";
 },
 {
 axesValues = (
 100,
 100,
-7
+1
 );
 customParameters = (
 {
@@ -1178,13 +1178,13 @@ pos = 500;
 {
 }
 );
-name = "Thin Obelique";
+name = "Thin Italic";
 },
 {
 axesValues = (
 900,
 100,
-7
+1
 );
 customParameters = (
 {
@@ -1327,13 +1327,13 @@ over = 3;
 pos = 499;
 }
 );
-name = "Black Obelique";
+name = "Black Italic";
 },
 {
 axesValues = (
 100,
 125,
-7
+1
 );
 customParameters = (
 {
@@ -1447,13 +1447,13 @@ pos = 500;
 {
 }
 );
-name = "Thin Expanded Obelique";
+name = "Expanded Thin Italic";
 },
 {
 axesValues = (
 900,
 125,
-7
+1
 );
 customParameters = (
 {
@@ -1596,7 +1596,7 @@ over = 3;
 pos = 499;
 }
 );
-name = "Black Expanded Obelique";
+name = "Expanded Black Italic";
 }
 );
 glyphs = (
@@ -126240,44 +126240,6 @@ weightClass = 100;
 },
 {
 axesValues = (
-100,
-100,
-7
-);
-instanceInterpolations = {
-"E82ED6F4-5586-4A54-A016-86253174F252" = 1;
-};
-name = ThinSlanted;
-weightClass = 100;
-},
-{
-axesValues = (
-100,
-125,
-0
-);
-instanceInterpolations = {
-"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 1;
-};
-name = ThinExpanded;
-weightClass = 100;
-widthClass = 7;
-},
-{
-axesValues = (
-100,
-125,
-7
-);
-instanceInterpolations = {
-"99376340-70F9-4B1D-A253-B1BEDBF73140" = 1;
-};
-name = ThinExpandedSlanted;
-weightClass = 100;
-widthClass = 7;
-},
-{
-axesValues = (
 200,
 100,
 0
@@ -126287,44 +126249,7 @@ instanceInterpolations = {
 "EE7B1B97-935D-491C-911D-EA8B82785AFC" = 0.125;
 };
 name = ExtraLight;
-},
-{
-axesValues = (
-200,
-100,
-7
-);
-instanceInterpolations = {
-"E82ED6F4-5586-4A54-A016-86253174F252" = 0.875;
-"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.125;
-};
-name = ExtraLightSlanted;
-},
-{
-axesValues = (
-200,
-125,
-0
-);
-instanceInterpolations = {
-"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.875;
-"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.125;
-};
-name = ExtraLightExpanded;
-widthClass = 7;
-},
-{
-axesValues = (
-200,
-125,
-7
-);
-instanceInterpolations = {
-"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.125;
-"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.875;
-};
-name = ExtraLightExpandedSlanted;
-widthClass = 7;
+weightClass = 200;
 },
 {
 axesValues = (
@@ -126341,47 +126266,6 @@ weightClass = 300;
 },
 {
 axesValues = (
-300,
-100,
-7
-);
-instanceInterpolations = {
-"E82ED6F4-5586-4A54-A016-86253174F252" = 0.75;
-"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.25;
-};
-name = LightSlanted;
-weightClass = 300;
-},
-{
-axesValues = (
-300,
-125,
-0
-);
-instanceInterpolations = {
-"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.75;
-"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.25;
-};
-name = LightExpanded;
-weightClass = 300;
-widthClass = 7;
-},
-{
-axesValues = (
-300,
-125,
-7
-);
-instanceInterpolations = {
-"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.25;
-"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.75;
-};
-name = LightExpandedSlanted;
-weightClass = 300;
-widthClass = 7;
-},
-{
-axesValues = (
 400,
 100,
 0
@@ -126391,44 +126275,6 @@ instanceInterpolations = {
 "EE7B1B97-935D-491C-911D-EA8B82785AFC" = 0.375;
 };
 name = Regular;
-},
-{
-axesValues = (
-400,
-100,
-7
-);
-instanceInterpolations = {
-"E82ED6F4-5586-4A54-A016-86253174F252" = 0.625;
-"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.375;
-};
-name = Slanted;
-},
-{
-axesValues = (
-400,
-125,
-0
-);
-instanceInterpolations = {
-"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.625;
-"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.375;
-};
-name = Expanded;
-widthClass = 7;
-},
-{
-axesValues = (
-400,
-125,
-7
-);
-instanceInterpolations = {
-"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.375;
-"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.625;
-};
-name = ExpandedSlanted;
-widthClass = 7;
 },
 {
 axesValues = (
@@ -126445,47 +126291,6 @@ weightClass = 500;
 },
 {
 axesValues = (
-500,
-100,
-7
-);
-instanceInterpolations = {
-"E82ED6F4-5586-4A54-A016-86253174F252" = 0.5;
-"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.5;
-};
-name = MediumSlanted;
-weightClass = 500;
-},
-{
-axesValues = (
-500,
-125,
-0
-);
-instanceInterpolations = {
-"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.5;
-"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.5;
-};
-name = MediumExpanded;
-weightClass = 500;
-widthClass = 7;
-},
-{
-axesValues = (
-500,
-125,
-7
-);
-instanceInterpolations = {
-"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.5;
-"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.5;
-};
-name = MediumExpandedSlanted;
-weightClass = 500;
-widthClass = 7;
-},
-{
-axesValues = (
 600,
 100,
 0
@@ -126495,44 +126300,7 @@ instanceInterpolations = {
 "EE7B1B97-935D-491C-911D-EA8B82785AFC" = 0.625;
 };
 name = SemiBold;
-},
-{
-axesValues = (
-600,
-100,
-7
-);
-instanceInterpolations = {
-"E82ED6F4-5586-4A54-A016-86253174F252" = 0.375;
-"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.625;
-};
-name = SemiBoldSlanted;
-},
-{
-axesValues = (
-600,
-125,
-0
-);
-instanceInterpolations = {
-"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.375;
-"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.625;
-};
-name = SemiBoldExpanded;
-widthClass = 7;
-},
-{
-axesValues = (
-600,
-125,
-7
-);
-instanceInterpolations = {
-"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.625;
-"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.375;
-};
-name = SemiBoldExpandedSlanted;
-widthClass = 7;
+weightClass = 600;
 },
 {
 axesValues = (
@@ -126549,47 +126317,6 @@ weightClass = 700;
 },
 {
 axesValues = (
-700,
-100,
-7
-);
-instanceInterpolations = {
-"E82ED6F4-5586-4A54-A016-86253174F252" = 0.25;
-"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.75;
-};
-name = BoldSlanted;
-weightClass = 700;
-},
-{
-axesValues = (
-700,
-125,
-0
-);
-instanceInterpolations = {
-"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.25;
-"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.75;
-};
-name = BoldExpanded;
-weightClass = 700;
-widthClass = 7;
-},
-{
-axesValues = (
-700,
-125,
-7
-);
-instanceInterpolations = {
-"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.75;
-"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.25;
-};
-name = BoldExpandedSlanted;
-weightClass = 700;
-widthClass = 7;
-},
-{
-axesValues = (
 800,
 100,
 0
@@ -126599,44 +126326,7 @@ instanceInterpolations = {
 "EE7B1B97-935D-491C-911D-EA8B82785AFC" = 0.875;
 };
 name = ExtraBold;
-},
-{
-axesValues = (
-800,
-100,
-7
-);
-instanceInterpolations = {
-"E82ED6F4-5586-4A54-A016-86253174F252" = 0.125;
-"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.875;
-};
-name = ExtraBoldSlanted;
-},
-{
-axesValues = (
-800,
-125,
-0
-);
-instanceInterpolations = {
-"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.125;
-"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.875;
-};
-name = ExtraBoldExpanded;
-widthClass = 7;
-},
-{
-axesValues = (
-800,
-125,
-7
-);
-instanceInterpolations = {
-"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.875;
-"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.125;
-};
-name = ExtraBoldExpandedSlanted;
-widthClass = 7;
+weightClass = 800;
 },
 {
 axesValues = (
@@ -126652,15 +126342,193 @@ weightClass = 900;
 },
 {
 axesValues = (
-900,
 100,
-7
+125,
+0
 );
 instanceInterpolations = {
-"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 1;
+"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 1;
 };
-name = BlackSlanted;
-weightClass = 900;
+name = Thin;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 100;
+},
+{
+axesValues = (
+200,
+125,
+0
+);
+instanceInterpolations = {
+"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.875;
+"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.125;
+};
+name = ExtraLight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 200;
+},
+{
+axesValues = (
+300,
+125,
+0
+);
+instanceInterpolations = {
+"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.75;
+"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.25;
+};
+name = Light;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 300;
+},
+{
+axesValues = (
+400,
+125,
+0
+);
+instanceInterpolations = {
+"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.625;
+"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.375;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+},
+{
+axesValues = (
+500,
+125,
+0
+);
+instanceInterpolations = {
+"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.5;
+"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.5;
+};
+name = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 500;
+},
+{
+axesValues = (
+600,
+125,
+0
+);
+instanceInterpolations = {
+"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.375;
+"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.625;
+};
+name = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 600;
+},
+{
+axesValues = (
+700,
+125,
+0
+);
+instanceInterpolations = {
+"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.25;
+"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.75;
+};
+name = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+800,
+125,
+0
+);
+instanceInterpolations = {
+"1C3422F9-BFDE-4FE8-A46C-291A8D4071B9" = 0.125;
+"1EECF98D-35CB-4836-8875-A967ACEC66D2" = 0.875;
+};
+name = ExtraBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 800;
 },
 {
 axesValues = (
@@ -126671,22 +126539,346 @@ axesValues = (
 instanceInterpolations = {
 "1EECF98D-35CB-4836-8875-A967ACEC66D2" = 1;
 };
-name = BlackExpanded;
+name = Black;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
 weightClass = 900;
-widthClass = 7;
+},
+{
+axesValues = (
+100,
+100,
+1
+);
+instanceInterpolations = {
+"E82ED6F4-5586-4A54-A016-86253174F252" = 1;
+};
+name = "Thin Italic";
+weightClass = 100;
+},
+{
+axesValues = (
+200,
+100,
+1
+);
+instanceInterpolations = {
+"E82ED6F4-5586-4A54-A016-86253174F252" = 0.875;
+"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.125;
+};
+name = "ExtraLight Italic";
+weightClass = 200;
+},
+{
+axesValues = (
+300,
+100,
+1
+);
+instanceInterpolations = {
+"E82ED6F4-5586-4A54-A016-86253174F252" = 0.75;
+"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.25;
+};
+name = "Light Italic";
+weightClass = 300;
+},
+{
+axesValues = (
+400,
+100,
+1
+);
+instanceInterpolations = {
+"E82ED6F4-5586-4A54-A016-86253174F252" = 0.625;
+"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.375;
+};
+name = Italic;
+},
+{
+axesValues = (
+500,
+100,
+1
+);
+instanceInterpolations = {
+"E82ED6F4-5586-4A54-A016-86253174F252" = 0.5;
+"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.5;
+};
+name = "Medium Italic";
+weightClass = 500;
+},
+{
+axesValues = (
+600,
+100,
+1
+);
+instanceInterpolations = {
+"E82ED6F4-5586-4A54-A016-86253174F252" = 0.375;
+"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.625;
+};
+name = "SemiBold Italic";
+weightClass = 600;
+},
+{
+axesValues = (
+700,
+100,
+1
+);
+instanceInterpolations = {
+"E82ED6F4-5586-4A54-A016-86253174F252" = 0.25;
+"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.75;
+};
+name = "Bold Italic";
+weightClass = 700;
+},
+{
+axesValues = (
+800,
+100,
+1
+);
+instanceInterpolations = {
+"E82ED6F4-5586-4A54-A016-86253174F252" = 0.125;
+"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 0.875;
+};
+name = "ExtraBold Italic";
+weightClass = 800;
+},
+{
+axesValues = (
+900,
+100,
+1
+);
+instanceInterpolations = {
+"F94FFD99-753E-41E1-86D1-359C136D3DE6" = 1;
+};
+name = "Black Italic";
+weightClass = 900;
+},
+{
+axesValues = (
+100,
+125,
+1
+);
+instanceInterpolations = {
+"99376340-70F9-4B1D-A253-B1BEDBF73140" = 1;
+};
+name = "Thin Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 100;
+},
+{
+axesValues = (
+200,
+125,
+1
+);
+instanceInterpolations = {
+"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.125;
+"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.875;
+};
+name = "ExtraLight Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 200;
+},
+{
+axesValues = (
+300,
+125,
+1
+);
+instanceInterpolations = {
+"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.25;
+"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.75;
+};
+name = "Light Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 300;
+},
+{
+axesValues = (
+400,
+125,
+1
+);
+instanceInterpolations = {
+"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.375;
+"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.625;
+};
+name = Italic;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+},
+{
+axesValues = (
+500,
+125,
+1
+);
+instanceInterpolations = {
+"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.5;
+"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.5;
+};
+name = "Medium Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 500;
+},
+{
+axesValues = (
+600,
+125,
+1
+);
+instanceInterpolations = {
+"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.625;
+"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.375;
+};
+name = "SemiBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 600;
+},
+{
+axesValues = (
+700,
+125,
+1
+);
+instanceInterpolations = {
+"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.75;
+"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.25;
+};
+name = "Bold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+800,
+125,
+1
+);
+instanceInterpolations = {
+"7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 0.875;
+"99376340-70F9-4B1D-A253-B1BEDBF73140" = 0.125;
+};
+name = "ExtraBold Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
+weightClass = 800;
 },
 {
 axesValues = (
 900,
 125,
-7
+1
 );
 instanceInterpolations = {
 "7E05DFED-BC11-4724-94EA-0D0C4C5F5B37" = 1;
 };
-name = BlackExpandedSlanted;
+name = "Black Italic";
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Sour Gummy Expanded";
+}
+);
+}
+);
 weightClass = 900;
-widthClass = 7;
 }
 );
 kerningLTR = {
