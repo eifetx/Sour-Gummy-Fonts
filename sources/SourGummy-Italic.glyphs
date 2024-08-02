@@ -1,5 +1,5 @@
 {
-.appVersion = "3309";
+.appVersion = "3315";
 .formatVersion = 3;
 axes = (
 {
@@ -117490,7 +117490,7 @@ unicode = 380;
 glyphname = f_f;
 kernLeft = f;
 kernRight = f1;
-lastChange = "2024-07-19 11:56:55 +0000";
+lastChange = "2024-08-02 12:24:08 +0000";
 layers = (
 {
 anchors = (
@@ -118010,7 +118010,7 @@ width = 797;
 glyphname = f_f_i;
 kernLeft = f;
 kernRight = H;
-lastChange = "2024-07-19 11:56:55 +0000";
+lastChange = "2024-08-02 12:24:08 +0000";
 layers = (
 {
 anchors = (
@@ -118638,7 +118638,7 @@ width = 808;
 glyphname = fi;
 kernLeft = f;
 kernRight = H;
-lastChange = "2024-07-19 11:56:55 +0000";
+lastChange = "2024-08-02 12:24:08 +0000";
 layers = (
 {
 anchors = (
